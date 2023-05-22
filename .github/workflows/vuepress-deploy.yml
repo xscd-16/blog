@@ -7,7 +7,7 @@ jobs:
     - name: Checkout
     - uses: actions/checkout@master
     - name: Build and Deploy
-    - uses: xscd-16/blog@master
+      uses: xscd-16/blog@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: xscd-16/cimu_blog
